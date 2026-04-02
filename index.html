@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valmonte - Serviços e Locação de Equipamentos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-valmonte-dark { background-color: #4A4A49; }
+        .text-valmonte-dark { color: #4A4A49; }
+        .text-valmonte-bronze { color: #A89078; }
+        .bg-valmonte-bronze { background-color: #A89078; }
+        .border-valmonte-bronze { border-color: #A89078; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image_f3046a.jpg') center/cover; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <img src="image_f2fda3.png" alt="Valmonte Logo" class="h-12">
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+                <a href="#inicio" class="hover:text-valmonte-bronze transition">Início</a>
+                <a href="#sobre" class="hover:text-valmonte-bronze transition">Sobre</a>
+                <a href="#servicos" class="hover:text-valmonte-bronze transition">Serviços</a>
+                <a href="#portfolio" class="hover:text-valmonte-bronze transition">Portfólio</a>
+                <a href="#contato" class="bg-valmonte-dark text-white px-5 py-2 rounded-full hover:bg-valmonte-bronze transition">Fale Conosco</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero-gradient h-[80vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 uppercase tracking-tighter">Valmonte Serviços e Locação</h1>
+            <p class="text-xl md:text-2xl mb-8 font-light italic">Engenharia, Locação de Equipamentos Pesados e Gestão de Obras em Goiânia e todo Brasil.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#contato" class="bg-valmonte-bronze text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition shadow-lg">Solicitar Orçamento</a>
+                <!-- Botão corrigido com texto em cinza escuro para visibilidade -->
+                <a href="#sobre" class="bg-white text-valmonte-dark px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition shadow-lg">Conheça a Empresa</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Apresentação -->
+    <section id="sobre" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="image_f304e6.jpg" alt="Frota Valmonte" class="rounded-2xl shadow-2xl">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-valmonte-bronze font-bold text-sm uppercase mb-2">Quem Somos</h2>
+                    <h3 class="text-3xl font-bold mb-6 text-valmonte-dark uppercase">Excelência técnica de Goiânia para o Brasil.</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Localizada em Goiânia, a Valmonte oferece serviços técnicos de engenharia, locação de equipamentos pesados e gestão administrativa de projetos. Nosso foco é prover soluções completas para obras civis, energia e mineração.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="border-l-4 border-valmonte-bronze pl-4">
+                            <h4 class="font-bold text-valmonte-dark">Missão</h4>
+                            <p class="text-sm text-gray-500">Suprir necessidades com segurança, zelo e pontualidade.</p>
+                        </div>
+                        <div class="border-l-4 border-valmonte-bronze pl-4">
+                            <h4 class="font-bold text-valmonte-dark">Propósito</h4>
+                            <p class="text-sm text-gray-500">Proporcionar experiência de qualidade e resultados positivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acróstico Valores -->
+    <section class="py-16 bg-valmonte-dark text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12 uppercase tracking-widest">Nossos Valores</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">V</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Verdade</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">A</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Altivez</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">L</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Liderança</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">M</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Mentalidade</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">O</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Ordem</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">N</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Nobreza</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">T</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Temperança</span>
+                </div>
+                <div class="p-4 bg-white/10 rounded-lg hover:bg-white/20 transition cursor-default">
+                    <span class="text-4xl font-black text-valmonte-bronze block">E</span>
+                    <span class="text-[10px] uppercase font-bold tracking-tighter">Excelência</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-center text-3xl font-bold mb-16 text-valmonte-dark uppercase tracking-tight">Nossos Serviços</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-b-4 border-transparent hover:border-valmonte-bronze transition duration-300">
+                    <div class="w-14 h-14 bg-valmonte-bronze/20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-truck-pickup text-valmonte-bronze text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Locação de Máquinas</h3>
+                    <p class="text-gray-500 text-sm">Equipamentos pesados para obras e serviços em geral com frota revisada.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-b-4 border-transparent hover:border-valmonte-bronze transition duration-300">
+                    <div class="w-14 h-14 bg-valmonte-bronze/20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-tasks text-valmonte-bronze text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Gestão de Projetos</h3>
+                    <p class="text-gray-500 text-sm">Administração e gestão financeira rigorosa de obras e projetos técnicos.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-b-4 border-transparent hover:border-valmonte-bronze transition duration-300">
+                    <div class="w-14 h-14 bg-valmonte-bronze/20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-calculator text-valmonte-bronze text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Orçamentos</h3>
+                    <p class="text-gray-500 text-sm">Elaboração técnica de orçamentos precisos para grandes obras e engenharia.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-b-4 border-transparent hover:border-valmonte-bronze transition duration-300">
+                    <div class="w-14 h-14 bg-valmonte-bronze/20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-hard-hat text-valmonte-bronze text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Serviços Técnicos</h3>
+                    <p class="text-gray-500 text-sm">Ensaios de resistividade de solos e engenharia especializada de campo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row gap-12 items-center">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-8 text-valmonte-dark italic uppercase">Por que nos contratar?</h2>
+                <ul class="space-y-6">
+                    <li class="flex gap-4">
+                        <span class="flex-shrink-0 w-8 h-8 bg-valmonte-dark text-white rounded-full flex items-center justify-center font-bold">1</span>
+                        <div>
+                            <h4 class="font-bold">Foco Total na Solução da Dor</h4>
+                            <p class="text-gray-600 text-sm">Entendemos profundamente o desafio do cliente para entregar o resultado esperado.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="flex-shrink-0 w-8 h-8 bg-valmonte-dark text-white rounded-full flex items-center justify-center font-bold">2</span>
+                        <div>
+                            <h4 class="font-bold">Equipamentos & Treinamento</h4>
+                            <p class="text-gray-600 text-sm">Equipe técnica qualificada e máquinas com manutenção em dia.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="flex-shrink-0 w-8 h-8 bg-valmonte-dark text-white rounded-full flex items-center justify-center font-bold">3</span>
+                        <div>
+                            <h4 class="font-bold">Relatório Fotográfico</h4>
+                            <p class="text-gray-600 text-sm">Transparência através de registros detalhados de cada etapa do serviço.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                <img src="image_f3042e.jpg" alt="Equipamento de Obra" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+                <img src="image_f3044c.jpg" alt="Betoneira Valmonte" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+                <img src="image_f304c9.jpg" alt="Maquinário Pesado" class="rounded-lg shadow-md col-span-2 hover:scale-105 transition duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência e Portfólio -->
+    <section id="portfolio" class="py-20 bg-valmonte-dark text-white">
+        <div class="container mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 uppercase tracking-widest">Serviços Executados</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left min-w-[600px]">
+                        <thead class="border-b border-white/20 text-valmonte-bronze uppercase text-sm">
+                            <tr>
+                                <th class="py-4 px-2">Local/Obra</th>
+                                <th class="py-4 px-2">Ano</th>
+                                <th class="py-4 px-2">Escopo do Serviço</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm divide-y divide-white/10">
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="py-4 px-2">LD 69KV Matriz de Camaragibe – AL</td>
+                                <td class="py-4 px-2">2023</td>
+                                <td class="py-4 px-2">Ensaio de resistividade de solos (157 Estruturas)</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="py-4 px-2">LD 138 KV Jussara / Fazenda Canadá – GO</td>
+                                <td class="py-4 px-2">2024</td>
+                                <td class="py-4 px-2">Ensaio de resistividade de solos (160 Estruturas)</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="py-4 px-2">LT 230KV Bay Albras / Hydro Alunorte – PA</td>
+                                <td class="py-4 px-2">2024</td>
+                                <td class="py-4 px-2">Gestão de projetos, contrato e custos</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition">
+                                <td class="py-4 px-2">LT 230KV Ribeirão Gonçalves / Balsas – PI</td>
+                                <td class="py-4 px-2">2025</td>
+                                <td class="py-4 px-2">Ensaio de resistividade de solos (95 Estruturas)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Galeria de Fotos -->
+            <h3 class="text-2xl font-bold mb-8 uppercase">Relatório Fotográfico</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="image_f3048c.jpg" alt="Trabalho em Campo" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-sm font-bold border-2 border-white p-2">VER DETALHES</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="image_f304a9.jpg" alt="Equipamento em Campo" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-sm font-bold border-2 border-white p-2">VER DETALHES</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="image_f3046a.jpg" alt="Execução de Obra" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-sm font-bold border-2 border-white p-2">VER DETALHES</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Saúde Financeira -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12 text-valmonte-dark uppercase tracking-tighter">Solidez e Transparência</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 shadow-sm">
+                    <div class="text-3xl font-black text-valmonte-bronze">R$ 515k+</div>
+                    <div class="text-[10px] uppercase font-extrabold text-gray-500 mt-2">Faturamento Anual</div>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 shadow-sm">
+                    <div class="text-3xl font-black text-valmonte-bronze">ZERO</div>
+                    <div class="text-[10px] uppercase font-extrabold text-gray-500 mt-2">Endividamento</div>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 shadow-sm">
+                    <div class="text-3xl font-black text-valmonte-bronze">100%</div>
+                    <div class="text-[10px] uppercase font-extrabold text-gray-500 mt-2">Frota Ativa</div>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 shadow-sm">
+                    <div class="text-3xl font-black text-valmonte-bronze">5 Estrelas</div>
+                    <div class="text-[10px] uppercase font-extrabold text-gray-500 mt-2">Satisfação Clientes</div>
+                </div>
+            </div>
+            <p class="mt-8 text-sm text-gray-500 italic max-w-2xl mx-auto">"A Valmonte Locação não possui dívidas a longo prazo nem financiamentos em andamento, garantindo estabilidade para seus projetos."</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <footer id="contato" class="bg-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row border border-gray-100">
+                <div class="md:w-1/2 bg-valmonte-dark p-12 text-white flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-8 uppercase tracking-widest text-valmonte-bronze">Vamos construir juntos?</h2>
+                        <p class="mb-8 text-white/70 leading-relaxed">Localizada em Goiânia, atendemos empresas do ramo de construção, energia, mineração e empreiteiras em todo território nacional.</p>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4 group cursor-pointer">
+                            <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-valmonte-bronze transition">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="text-sm font-semibold">valmontelocacoes@gmail.com</span>
+                        </div>
+                        <div class="flex items-center gap-4 group cursor-pointer">
+                            <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-valmonte-bronze transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <span class="text-sm font-semibold">(62) 99810-4785</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span class="text-sm font-semibold">Goiânia, Goiás</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 p-12">
+                    <!-- Formulário corrigido para Netlify Forms -->
+                    <form name="contato" method="POST" data-netlify="true" class="space-y-4">
+                        <input type="hidden" name="form-name" value="contato">
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-400 mb-2">Nome Completo</label>
+                            <input type="text" name="nome" class="w-full border-gray-200 rounded-lg p-3 border focus:border-valmonte-bronze outline-none transition" placeholder="Ex: João Silva" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-400 mb-2">E-mail Corporativo</label>
+                            <input type="email" name="email" class="w-full border-gray-200 rounded-lg p-3 border focus:border-valmonte-bronze outline-none transition" placeholder="seu@empresa.com.br" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-400 mb-2">Mensagem / Solicitação</label>
+                            <textarea name="mensagem" class="w-full border-gray-200 rounded-lg p-3 border focus:border-valmonte-bronze outline-none h-32 transition" placeholder="Descreva os equipamentos ou serviços técnicos necessários" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-valmonte-bronze text-white font-bold py-4 rounded-lg hover:bg-valmonte-dark transition shadow-lg uppercase tracking-widest text-sm">Enviar Orçamento</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-12 text-center text-gray-400 text-[10px]">
+                <p>© 2025 Valmonte Serviços e Locação. Todos os direitos reservados.</p>
+                <p class="mt-2 uppercase tracking-widest font-black text-gray-500">Verdade • Altivez • Liderança • Mentalidade • Ordem • Nobreza • Temperança • Excelência</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5562998104785" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition z-50">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
