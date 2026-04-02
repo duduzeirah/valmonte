@@ -14,7 +14,8 @@
         .text-valmonte-bronze { color: #A89078; }
         .bg-valmonte-bronze { background-color: #A89078; }
         .border-valmonte-bronze { border-color: #A89078; }
-        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image_f3046a.jpg') center/cover; }
+        /* Hero com a imagem da betoneira execução de obra */
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/fotobitoneira01.jpeg') center/cover; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -22,7 +23,7 @@
     <!-- Navbar -->
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <img src="image_f2fda3.png" alt="Valmonte Logo" class="h-12">
+            <img src="images/logovalmontesemfundo.png" alt="Valmonte Logo" class="h-12">
             <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
                 <a href="#inicio" class="hover:text-valmonte-bronze transition">Início</a>
                 <a href="#sobre" class="hover:text-valmonte-bronze transition">Sobre</a>
@@ -40,7 +41,6 @@
             <p class="text-xl md:text-2xl mb-8 font-light italic">Engenharia, Locação de Equipamentos Pesados e Gestão de Obras em Goiânia e todo Brasil.</p>
             <div class="flex flex-col md:flex-row justify-center gap-4">
                 <a href="#contato" class="bg-valmonte-bronze text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition shadow-lg">Solicitar Orçamento</a>
-                <!-- Botão corrigido com texto em cinza escuro para visibilidade -->
                 <a href="#sobre" class="bg-white text-valmonte-dark px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition shadow-lg">Conheça a Empresa</a>
             </div>
         </div>
@@ -51,7 +51,7 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2">
-                    <img src="image_f304e6.jpg" alt="Frota Valmonte" class="rounded-2xl shadow-2xl">
+                    <img src="images/equipevalmonte.jpeg" alt="Equipe Valmonte" class="rounded-2xl shadow-2xl">
                 </div>
                 <div class="md:w-1/2">
                     <h2 class="text-valmonte-bronze font-bold text-sm uppercase mb-2">Quem Somos</h2>
@@ -186,9 +186,9 @@
                 </ul>
             </div>
             <div class="md:w-1/2 grid grid-cols-2 gap-4">
-                <img src="image_f3042e.jpg" alt="Equipamento de Obra" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
-                <img src="image_f3044c.jpg" alt="Betoneira Valmonte" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
-                <img src="image_f304c9.jpg" alt="Maquinário Pesado" class="rounded-lg shadow-md col-span-2 hover:scale-105 transition duration-300">
+                <img src="images/fotobitorneiracami.jpeg" alt="Betoneira no Caminhão" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+                <img src="images/bitoneiratraz.jpeg" alt="Betoneira Vista Traseira" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+                <img src="images/equipevalmonte02.jpeg" alt="Equipe Valmonte Campo" class="rounded-lg shadow-md col-span-2 hover:scale-105 transition duration-300">
             </div>
         </div>
     </section>
@@ -237,19 +237,19 @@
             <h3 class="text-2xl font-bold mb-8 uppercase">Relatório Fotográfico</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div class="group relative overflow-hidden rounded-lg">
-                    <img src="image_f3048c.jpg" alt="Trabalho em Campo" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
+                    <img src="images/caminhaofrente.jpeg" alt="Caminhão Frente" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-sm font-bold border-2 border-white p-2">VER DETALHES</span>
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-lg">
-                    <img src="image_f304a9.jpg" alt="Equipamento em Campo" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
+                    <img src="images/caminhãofrente00.jpeg" alt="Caminhão Detalhe" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-sm font-bold border-2 border-white p-2">VER DETALHES</span>
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-lg">
-                    <img src="image_f3046a.jpg" alt="Execução de Obra" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
+                    <img src="images/fotobitoneira01.jpeg" alt="Execução de Obra" class="h-64 w-full object-cover transition duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-sm font-bold border-2 border-white p-2">VER DETALHES</span>
                     </div>
@@ -315,7 +315,6 @@
                     </div>
                 </div>
                 <div class="md:w-1/2 p-12">
-                    <!-- Formulário corrigido para Netlify Forms -->
                     <form name="contato" method="POST" data-netlify="true" class="space-y-4">
                         <input type="hidden" name="form-name" value="contato">
                         <div>
